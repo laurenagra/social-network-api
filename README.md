@@ -33,15 +33,26 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Installation
 1. In the terminal run `npm install`
+2. Run `npm i` to ensure dependencies are installed 
 
 ## Usage
+1. Seed the database with: `npm run seed` 
+2. Begin the program with: `npm start`
+
+- Enjoy a demo of this application here
 
 ## Deployed Links
 
 ## Inspiration
+ - GT Full-Stack Bootcamp Homework 18
 
 ## Author 
+Lauren Agra
+ - [LinkedIn](https://www.linkedin.com/in/lauren-agra-aa868b1b8/)
+ - [Github](https://github.com/laurenagra)
 
 ## Status
+ Project incomplete as of May 9th
 
 ## License 
+- [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
