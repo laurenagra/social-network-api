@@ -1,5 +1,5 @@
 const connection = require('../config/connection');
-const { thought, user } = require('../models');
+const { Thought, User } = require('../models');
 
 connection.on('error', (err) => err);
 
@@ -7,22 +7,22 @@ connection.once('open', async () => {
   console.log('connected');
 
   // Drop existing thought
-  await thought.deleteMany({});
+  await Thought.deleteMany({});
 
   // Drop existing user
-  await user.deleteMany({});
+  await User.deleteMany({});
 
   // Create empty array to hold the users
   const users = [];
 
   // Add user to the collection and await the results
-  await user.collection.insertOne({
+  await User.collection.insertOne({
     username: "banana",
     email: "banana@email.com"
   });
 
   // Add thought to the collection and await the results
-  await thought.collection.insertOne({
+  await Thought.collection.insertOne({
     thoughtText: "Here's a cool thought...",
     username: "bananana",
     // thoughtId: "5edff358a0fcb779aa7b118b"

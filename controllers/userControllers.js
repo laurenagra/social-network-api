@@ -9,7 +9,7 @@ module.exports = {
         .populate("thoughts")
         .select('-__v')
         .then((users) => {
-            console.lof(users);
+            console.log(users);
             const userObj = {
                 users,
             };
@@ -81,7 +81,7 @@ module.exports = {
         console.log(req.body);
         User.findOneAndUpdate(
           { _id: req.params.userId },
-          { $addToSet: { friends: req.body } },
+          { $addToSet: { friends: req.params.friendID } },
           { runValidators: true, new: true }
         )
           .select("-__v")
