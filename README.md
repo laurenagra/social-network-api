@@ -4,6 +4,16 @@
 ## General
 
 ## Table of Contents
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Tech](#technology-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployed](#deployed-links)
+- [Inspiration](#inspiration)
+- [Author](#author)
+- [Status](#status)
+- [License](#license)
 
 
 ## User Story
@@ -39,9 +49,10 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 1. Seed the database with: `npm run seed` 
 2. Begin the program with: `npm start`
 
-- Enjoy a demo of this application here
 
 ## Deployed Links
+- ![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) [Here](https://github.com/laurenagra/social-network-api)
+- ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white) [Here](https://drive.google.com/drive/folders/1DIC2cgBVVHrQRVlawdxS0OR5ONxPIJdJ)
 
 ## Inspiration
  - GT Full-Stack Bootcamp Homework 18
@@ -52,7 +63,7 @@ Lauren Agra
  - [Github](https://github.com/laurenagra)
 
 ## Status
- Project incomplete as of May 9th
+ Project complete as of May 16th
 
 ## License 
 - [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
